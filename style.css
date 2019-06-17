@@ -1,0 +1,335 @@
+body  {
+
+	background-image: url("background.jpg")
+
+}
+.logo {
+    top: 10px;
+
+
+    posion: relative;
+    transition: width 2s, height 2s, margin 1s;
+    width: 420px;
+    animation: logo, 5s, loop;
+
+
+}
+
+@keyframes logo {
+
+
+    0% {
+        left: 10px;
+    }
+    25% {
+        left: 110px;
+    }
+
+    50% {
+        left: 210px;
+    }
+
+    75% {
+        left: 110px;
+    }
+
+    100% {
+        left: 10px;
+    }
+}
+
+.header {
+
+
+		color: #FFFFFF;
+		text-shadow: 0 -1px 4px #FFF,
+					 0 -2px 10px #ff0, 0 -10px 20px
+					 #7e158e, 0 -18px 40px #d80cf6;
+		color: #FFFFFF;
+		font-size: 62px;
+		font-family: verdana;
+		margin-top: 10px;
+        margin-left: 10px;
+		text-align: left;
+
+
+}
+
+
+
+
+.info {
+    margin-top: 25px;
+    margin-left: 10px;
+    color: white;
+    font-family: verdana;
+    text-shadow: 3px 3px 2px #000000;
+    text-align: left;
+    margin-top: 45px;
+}
+
+
+
+#buttons {
+
+
+    margin-left: 25px;
+
+
+}
+
+.problem {
+    color: blue;
+    margin-left: 25px;
+
+    margin-top: 100px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+
+    padding: 5px;
+    border-radius: 15px;
+
+
+    width: 300px;
+    transition: width 1s;
+		box-shadow: 0px 0px 26px 4px #000000;
+}
+
+
+
+.support {
+    color: blue;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+
+    width: 300px;
+    transition: width 1s;
+		box-shadow: 0px 0px 26px 4px #000000;
+}
+
+
+
+.instagram {
+    color: blue;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+
+    width: 300px;
+    transition: width 1s;
+		box-shadow: 0px 0px 26px 4px #000000;
+}
+
+
+.gallery {
+    color: blue;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+
+    width: 300px;
+    transition: width 1s;
+		box-shadow: 0px 0px 26px 4px #000000;
+}
+
+.join {
+    color: blue;
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+    width: 300px;
+    transition: width 1s;
+		box-shadow: 0px 0px 26px 4px #000000;
+}
+.garen {
+
+    position: absolute;
+    top: 410px;
+    right: 125px;
+    z-index: -5;
+    border: 1px solid black;
+		box-shadow: 0px 0px 26px 4px #000000;
+}
+
+
+
+
+.gif {
+
+
+    width: 240px;
+
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 40%;
+    shadow: 5px 5px 5px #000000;
+    transition: width 2s, height 2s, transform 2s;
+		box-shadow: 0px 0px 26px 4px #000000;
+}
+
+
+
+
+.terms {
+		position: absolute;
+    color: #ffffff;
+    font-family: verdana;
+    background-color: #000;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+
+
+.problem:hover {
+    color: blur;
+    margin-left: 25px;
+
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+
+    width: 400px;
+}
+
+
+
+.support:hover {
+    color: blur;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+
+    width: 400px;
+}
+
+
+
+.instagram:hover {
+    color: blur;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+
+    width: 400px;
+}
+
+.gallery:hover {
+    color: blur;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+
+    width: 400px;
+}
+
+.join:hover {
+    color: blur;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+    width: 400px;
+}
+
+
+
+.gif:active {
+    text-align: center;
+    margin-top: 35px;
+    shadow: 5px 5px 5px #000000;
+    transform: rotate(360deg);
+}
+
+
+.problem:active {
+    color: blur;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+    width: 800px;
+}
+
+
+
+.support:active {
+    color: blur;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+    width: 800px;
+}
+
+
+
+.instagram:active {
+    color: blur;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+    width: 800px;
+}
+
+.gallery:active {
+    color: blur;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+    width: 800px;
+}
+
+.join:active  {
+    color: blur;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: verdana;
+    background-image: url("gradient.jpg");
+    padding: 5px;
+    border-radius: 15px;
+    width: 800px;
+}
